@@ -26,6 +26,6 @@ class Ufuadmin extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'ufuadmin';
+        return \Ufucms\Ufuadmin\Ufuadmin::class;
     }
 }
