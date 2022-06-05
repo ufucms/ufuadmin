@@ -141,4 +141,9 @@ class UfuadminServiceProvider extends ServiceProvider
             $this->app['router']->middlewareGroup($group, $middleware);
         }
     }
+
+    public function provides()
+    {
+        return ['ufuadmin'];
+    }
 }
