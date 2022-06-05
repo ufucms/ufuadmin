@@ -1,0 +1,8 @@
+{
+  "uri": "errors/404",
+  "layout": "base",
+  "view": "ufuadmin::errors.404",
+  "styles": [
+    "ufuadmin/css/error.css"
+  ]
+}

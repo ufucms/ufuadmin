@@ -1,0 +1,12 @@
+{
+  "uri": "code",
+  "layout": "base",
+  "title": "表单生成器",
+  "view": "ufuadmin::code",
+  "styles": [
+    "admin/css/code.css"
+  ],
+  "scripts": [
+    "admin/js/code.js"
+  ]
+}

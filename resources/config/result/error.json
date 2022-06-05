@@ -1,0 +1,8 @@
+{
+  "uri": "result/error",
+  "layout": "base",
+  "view": "ufuadmin::result.error",
+  "styles": [
+    "ufuadmin/css/result.css"
+  ]
+}

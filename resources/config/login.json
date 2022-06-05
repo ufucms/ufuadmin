@@ -1,0 +1,12 @@
+{
+  "uri": "login",
+  "layout": "base",
+  "title": "后台登录",
+  "view": "ufuadmin::login",
+  "styles": [
+    "admin/css/login.css"
+  ],
+  "scripts": [
+    "admin/js/login.js"
+  ]
+}

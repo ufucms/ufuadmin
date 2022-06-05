@@ -1,0 +1,44 @@
+{
+    "name": "ufucms/ufuadmin",
+    "description": "A powerful and easy-to-use background management system package based on Pear Admin.",
+    "keywords": [
+        "laravel",
+        "laravel admin",
+        "layui",
+        "Pear Admin",
+        "layui admin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ufucms",
+            "email": "ufucms@ufucms.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0|^8.1",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.3.3"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Ufucms\\Ufuadmin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ufucms\\Ufuadmin\\Providers\\UfuadminServiceProvider"
+            ],
+            "aliases": {
+                "Ufuadmin": "Ufucms\\Ufuadmin\\Support\\Facades\\Ufuadmin"
+            }
+        }
+    }
+}

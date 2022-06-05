@@ -1,0 +1,12 @@
+{
+    "uri": "console",
+    "layout": "base",
+    "title": "首页",
+    "view": "ufuadmin::console",
+    "styles": [
+        "admin/css/console1.css"
+    ],
+    "scripts": [
+        "admin/js/console.js"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "uri": "errors/500",
+  "layout": "base",
+  "view": "ufuadmin::errors.500",
+  "styles": [
+    "ufuadmin/css/error.css"
+  ]
+}
