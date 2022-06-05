@@ -9,7 +9,7 @@
         </div>
     @endforeach
     <div class="layui-inline">&emsp;
-        <x-layadmin::action :actions="$form['actions']"></x-layadmin::action>
+        <x-ufuadmin::action :actions="$form['actions']"></x-ufuadmin::action>
         @if(count($form['items']) > 3)
         <a class="layui-btn form-search-expand" lay-active="searchExpand">展开 <i class="layui-icon layui-icon-down"></i></a>
         @endif

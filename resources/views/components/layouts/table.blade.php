@@ -1,4 +1,4 @@
-<x-layadmin::layouts.base class="pear-container">
+<x-ufuadmin::layouts.base class="pear-container">
     @php
         // todo
         $search = request('ufuadmin.page.components.search',[]);
@@ -12,13 +12,13 @@
     @if($search)
         <div class="layui-card">
             <div class="layui-card-body">
-                <x-layadmin::search :form="$search"></x-layadmin::search>
+                <x-ufuadmin::search :form="$search"></x-ufuadmin::search>
             </div>
         </div>
     @endif
 
     {{-- 数据表格 --}}
-    <x-layadmin::table :table="$table"></x-layadmin::table>
+    <x-ufuadmin::table :table="$table"></x-ufuadmin::table>
 
     {{ $slot }}
-</x-layadmin::layouts.base>
+</x-ufuadmin::layouts.base>

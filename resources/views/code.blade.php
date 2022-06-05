@@ -1,4 +1,4 @@
-<x-layadmin::layouts.base>
+<x-ufuadmin::layouts.base>
     <div class="layui-fluid">
         <div class="layui-row layui-col-space10">
             <div class="layui-col-md1">
@@ -62,4 +62,4 @@
             </div>
         </div>
     </div>
-</x-layadmin::layouts.base>
+</x-ufuadmin::layouts.base>

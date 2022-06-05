@@ -1,3 +1,3 @@
-<x-layadmin::layouts.form>
+<x-ufuadmin::layouts.form>
 
-</x-layadmin::layouts.form>
+</x-ufuadmin::layouts.form>

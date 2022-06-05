@@ -1,8 +1,8 @@
-<x-layadmin::layouts.base>
+<x-ufuadmin::layouts.base>
     @if($form = request('ufuadmin.page.components.form',[]))
-        <x-layadmin::form :form="$form">
+        <x-ufuadmin::form :form="$form">
             {{ $slot }}
-        </x-layadmin::form>
+        </x-ufuadmin::form>
     @endif
 
-</x-layadmin::layouts.base>
+</x-ufuadmin::layouts.base>

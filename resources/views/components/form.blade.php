@@ -42,7 +42,7 @@
     {{-- 表单底部操作按钮  --}}
     <div class="bottom">
         <div class="button-container">
-            <x-layadmin::action :actions="$form['actions']"></x-layadmin::action>
+            <x-ufuadmin::action :actions="$form['actions']"></x-ufuadmin::action>
         </div>
     </div>
 </form>

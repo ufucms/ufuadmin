@@ -1,7 +1,7 @@
 {{--  数据表格：表头操作 --}}
 @if(count($table['actions']['toolbar'] ?? []))
 <script type="text/html" id="{{ $table['attributes']['id'].'-toolbar' }}">
-    <x-layadmin::action :actions="$table['actions']['toolbar']"></x-layadmin::action>
+    <x-ufuadmin::action :actions="$table['actions']['toolbar']"></x-ufuadmin::action>
 </script>
 @endif
 
@@ -15,6 +15,6 @@
 {{-- 数据表格：行操作按钮 --}}
 @if(count($table['actions']['column'] ?? []))
 <script type="text/html" id="{{ $table['attributes']['id'].'-bar' }}">
-    <x-layadmin::action :actions="$table['actions']['column']"></x-layadmin::action>
+    <x-ufuadmin::action :actions="$table['actions']['column']"></x-ufuadmin::action>
 </script>
 @endif

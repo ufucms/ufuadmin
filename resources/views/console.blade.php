@@ -1,4 +1,4 @@
-<x-layadmin::layouts.base class="pear-container">
+<x-ufuadmin::layouts.base class="pear-container">
     <div>
         <div class="layui-row layui-col-space10">
             <div class="layui-col-xs6 layui-col-md3">
@@ -247,4 +247,4 @@
             </div>
         </div>
     </div>
-</x-layadmin::layouts.base>
+</x-ufuadmin::layouts.base>

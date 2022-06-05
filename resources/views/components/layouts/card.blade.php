@@ -1,4 +1,4 @@
-<x-layadmin::layouts.base class="pear-container">
+<x-ufuadmin::layouts.base class="pear-container">
     <div class="layui-card">
         @if($header ?? '')
             <div class="layui-card-header">{{ $header }}</div>
@@ -7,4 +7,4 @@
             {{ $slot }}
         </div>
     </div>
-</x-layadmin::layouts.base>
+</x-ufuadmin::layouts.base>

@@ -1,3 +1,3 @@
-<x-layadmin::layouts.table>
+<x-ufuadmin::layouts.table>
 
-</x-layadmin::layouts.table>
+</x-ufuadmin::layouts.table>

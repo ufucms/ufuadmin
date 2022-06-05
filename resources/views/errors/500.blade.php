@@ -1,4 +1,4 @@
-<x-layadmin::layouts.base>
+<x-ufuadmin::layouts.base>
     @push('style')
         <link rel="stylesheet" href="{{ asset('vendor/ufuadmin/css/error.css') }}">
     @endpush
@@ -15,4 +15,4 @@
             @endenv
         </div>
     </div>
-</x-layadmin::layouts.base>
+</x-ufuadmin::layouts.base>

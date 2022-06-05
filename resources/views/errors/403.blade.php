@@ -1,4 +1,4 @@
-<x-layadmin::layouts.base>
+<x-ufuadmin::layouts.base>
     @push('style')
         <link rel="stylesheet" href="{{ asset('vendor/ufuadmin/css/error.css') }}">
     @endpush
@@ -11,4 +11,4 @@
             <a href="{{ url(config('ufuadmin.home.path','/')) }}"><button class="pear-btn pear-btn-primary">返回首页</button></a>
         </div>
     </div>
-</x-layadmin::layouts.base>
+</x-ufuadmin::layouts.base>
